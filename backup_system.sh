@@ -65,6 +65,7 @@ do
 			;;
 		7)
 			n=$(( 1 ))
+			clear
 			echo "GOODBYE"
 			;;
 	esac

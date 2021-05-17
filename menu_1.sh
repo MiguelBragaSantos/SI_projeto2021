@@ -12,7 +12,7 @@ CHOICE=$(dialog --clear \
 	"${OPTIONS[@]}"\
 	2>&1 >/dev/tty)
 
-clear
+clear 
 case $CHOICE in
 	1)
 		dialog --clear \
@@ -34,7 +34,6 @@ case $CHOICE in
 		mkdir $val
 		rm -f ans.txt
 		;;
-
 	3)
 		bash ./backup_system.sh
 		;;
