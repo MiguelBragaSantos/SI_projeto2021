@@ -7,7 +7,7 @@ if [ ! -f database.sha25.enc6 ]; then
 		--title "Registo" --insecure \
 		--passwordbox "Palavra-Passe : " 0 0 2>&1 1>&3);
 	exec 3>&-;
-        echo $PSD
+        #echo $PSD
         ./encrypt.sh > database.sha256
 	openssl aes-128-cbc -a -salt -pass pass:"${PSD}" -in database.sha256 -out database.sha256.enc
         rm database.sha256
