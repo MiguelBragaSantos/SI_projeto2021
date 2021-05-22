@@ -5,7 +5,7 @@ for X in *; do
 		cd $X
 		~/encrypt.sh
 		cd ..
-	else if [ "$X" = "database.sha256.enc" ]; then 
+	else if [[ "$X" = "database.sha256.enc" || "$X" = "database.sign" ]]; then 
 		continue
 		else
 			vech="$(pwd)/$X = $(openssl dgst $X)"
