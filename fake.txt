@@ -1,0 +1,20 @@
+6c6
+< /Users/neco/SI_projeto2021/encrypt.sh = MD5(encrypt.sh)= 178ec62473294d71b3b283c1a82f3845
+---
+> /Users/neco/SI_projeto2021/encrypt.sh = MD5(encrypt.sh)= 178ec62473294d71b3b283c1a82f3842
+8,9c8,9
+< /Users/neco/SI_projeto2021/fake/fak2.txt = MD5(fak2.txt)= d41d8cd98f00b204e9800998ecf8427e
+< /Users/neco/SI_projeto2021/file.txt = MD5(file.txt)= d41d8cd98f00b204e9800998ecf8427e
+---
+> /Users/neco/SI_projeto2021/fake/fak2.txt = MD5(fak2.txt)= d41d8cd98f00b204e9800998ecf84274
+> /Users/neco/SI_projeto2021/file.txt = MD5(file.txt)= d41d8cd98f00b204e9800998ecf84275
+11,12c11,12
+< /Users/neco/SI_projeto2021/init.sh = MD5(init.sh)= 651b61d59a2522ffc58b73a5a8dc6d84
+< /Users/neco/SI_projeto2021/menu_1.sh = MD5(menu_1.sh)= ddf540889e3940d9ccd4b7ab92e52650
+---
+> /Users/neco/SI_projeto2021/init.sh = MD5(init.sh)= 651b61d59a2522ffc58b73a5a8dc6d88
+> /Users/neco/SI_projeto2021/menu_1.sh = MD5(menu_1.sh)= ddf540889e3940d9ccd4b7ab92e52659
+15c15
+< /Users/neco/SI_projeto2021/secret_out3.txt = MD5(secret_out3.txt)= 20a62d488c9b22128a0559bc520309f7
+---
+> /Users/neco/SI_projeto2021/secret_out3.txt = MD5(secret_out3.txt)= 20a62d488c9b22128a0559bc520309f8

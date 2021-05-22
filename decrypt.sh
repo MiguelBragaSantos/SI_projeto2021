@@ -1,5 +1,3 @@
-#!bin/bash
+#!/bin/bash
 
-arg1=$1
-arg2=$2
-
+openssl enc -aes-128-cbc -d -a -pass pass:"${1}" -in database.sha256.enc
